@@ -1,0 +1,1 @@
+# Teste de Migração de Versões do Strapi
