@@ -15,5 +15,17 @@ module.exports = ({env}) => ({
         defaultReplyTo: 'micaelribouradossantos@gmail.com'
       },
     }
+  },
+  graphql: {
+    config: {
+      endpoint: '/graphql',
+      shadowCRUD: true,
+      playgroundAlways: env.bool('GRAPHQL_PLAYGROUND', false),
+      dephtLimit: 7,
+      amountLimit: 100,
+      apolloServer: {
+        tracing: env.bool('GRAPHQL_TRACING', false),
+      },
+    }
   }
 });
