@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_clients",
+  "info": {
+    "singularName": "user-client",
+    "pluralName": "user-clients",
+    "displayName": "userClient",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "password": {
+      "type": "password"
+    },
+    "profile": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::profile.profile",
+      "inversedBy": "user_client"
+    }
+  }
+}
