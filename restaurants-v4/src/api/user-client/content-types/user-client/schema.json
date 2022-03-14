@@ -23,6 +23,12 @@
       "relation": "oneToOne",
       "target": "api::profile.profile",
       "inversedBy": "user_client"
+    },
+    "orders": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::order.order",
+      "mappedBy": "user_client"
     }
   }
 }
