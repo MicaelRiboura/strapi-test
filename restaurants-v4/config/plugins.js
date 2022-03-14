@@ -45,4 +45,10 @@ module.exports = ({env}) => ({
       migrationFolderPath : 'migrations'
     },
   },
+  'transformer': {
+    enabled: true,
+    config: {
+      prefix: '/api/'
+    }
+  },
 });
