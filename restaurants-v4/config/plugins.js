@@ -27,5 +27,8 @@ module.exports = ({env}) => ({
         tracing: env.bool('GRAPHQL_TRACING', false),
       },
     }
+  },
+  seo: {
+    enabled: true,
   }
 });
