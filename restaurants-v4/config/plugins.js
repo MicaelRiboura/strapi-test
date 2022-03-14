@@ -38,4 +38,11 @@ module.exports = ({env}) => ({
   //     useValidationServer: false,
   //   }
   // },
+  migrations: {
+    enabled: true,
+    config: {
+      autoStart: true,
+      migrationFolderPath : 'migrations'
+    },
+  },
 });
