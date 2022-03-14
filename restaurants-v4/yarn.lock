@@ -1839,6 +1839,33 @@
     styled-components "^5.2.3"
     whatwg-fetch "^3.6.2"
 
+"@strapi/helper-plugin@^4.1.1":
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/@strapi/helper-plugin/-/helper-plugin-4.1.3.tgz#658d71af859f2eda0f56d2bf05206aaeb498a904"
+  integrity sha512-z0iRyV3c58trpagz9vPo/+c0edsX171ETu+J353zVMyyknV/pJ485xfMY71PrTzqQyrZCnH6cQwVSfY8OyQ/rA==
+  dependencies:
+    "@fortawesome/fontawesome-free" "^5.15.2"
+    "@fortawesome/fontawesome-svg-core" "^1.2.35"
+    "@fortawesome/free-brands-svg-icons" "^5.15.2"
+    "@fortawesome/free-solid-svg-icons" "^5.15.3"
+    "@fortawesome/react-fontawesome" "^0.1.14"
+    axios "0.25.0"
+    babel-plugin-styled-components "2.0.2"
+    formik "2.2.9"
+    invariant "^2.2.1"
+    lodash "4.17.21"
+    match-sorter "^4.0.2"
+    mini-css-extract-plugin "2.4.4"
+    moment "^2.29.1"
+    react "^17.0.2"
+    react-dom "^17.0.2"
+    react-helmet "^6.1.0"
+    react-intl "5.20.2"
+    react-router "^5.2.0"
+    react-router-dom "5.2.0"
+    styled-components "^5.2.3"
+    whatwg-fetch "^3.6.2"
+
 "@strapi/icons@0.0.1-alpha.76":
   version "0.0.1-alpha.76"
   resolved "https://registry.yarnpkg.com/@strapi/icons/-/icons-0.0.1-alpha.76.tgz#5576d94a53f1973b14fa5d938f0d6732926eb1aa"
@@ -2073,6 +2100,17 @@
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.1.2.tgz#1772b66490dcc0aff1e51345f79cdfe1284af9af"
   integrity sha512-MMT6zIg9G0SMUCHAB27OrDrrU7bIXcg0FXSlyOAyzXMV5aZKXp9vbS5pPmxSc5nxOvooPxjWRLJB8sLyM6f7sw==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "2.24.0"
+    http-errors "1.8.0"
+    lodash "4.17.21"
+    yup "0.32.9"
+
+"@strapi/utils@^4.1.1":
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.1.3.tgz#87c789568543cd5c257442a0115998f5a6c8c2f1"
+  integrity sha512-AAGLx7nO2vFxWj1ibwPDFNVwH2R9aXg6SbtrRLYaohZYOC1ldmn1htbwJiFG29GLlo9lvI4mmBeElzhZUb4Qsw==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "2.24.0"
@@ -10354,6 +10392,14 @@ strapi-plugin-email-designer@^2.0.9:
     react-github-btn "^1.2.0"
     react-syntax-highlighter "^15.4.3"
     striptags "^3.2.0"
+
+strapi-plugin-migrations@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-migrations/-/strapi-plugin-migrations-1.0.3.tgz#6c0ceafccd49ff48fe992c5da33b37b6fb25319d"
+  integrity sha512-vDaxKVmY0zjRgjZgsDL+v9tCd2jnXpvw77iup0om1OaaXyGYq21GqRy328yOfx7NpZzTIV5OFc1sMV85S8cKUQ==
+  dependencies:
+    "@strapi/helper-plugin" "^4.1.1"
+    "@strapi/utils" "^4.1.1"
 
 stream-browserify@^3.0.0:
   version "3.0.0"
