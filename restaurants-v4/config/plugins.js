@@ -51,4 +51,10 @@ module.exports = ({env}) => ({
       prefix: '/api/'
     }
   },
+  scheduler: {
+    enabled: true,
+    config: {
+      model: "scheduler",
+    },
+  },
 });
