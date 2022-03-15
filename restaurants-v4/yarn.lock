@@ -1944,6 +1944,31 @@
     pluralize "^8.0.0"
     subscriptions-transport-ws "0.9.19"
 
+"@strapi/plugin-graphql@^4.1.2":
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/@strapi/plugin-graphql/-/plugin-graphql-4.1.3.tgz#1ef02118a897096cff5957d046f6df109f98ec17"
+  integrity sha512-ADqbRk3vXEY5KZg+NsECLN7TYo6FFRd1iZxH8uet33K2AivXNhg+J3MhMGJfHFNrMve1HyNyUuMjPYjeP2gJLg==
+  dependencies:
+    "@apollo/federation" "^0.28.0"
+    "@graphql-tools/schema" "8.1.2"
+    "@graphql-tools/utils" "^8.0.2"
+    "@strapi/utils" "4.1.3"
+    apollo-server-core "3.1.2"
+    apollo-server-koa "3.1.2"
+    glob "^7.1.7"
+    graphql "^15.5.1"
+    graphql-depth-limit "^1.1.0"
+    graphql-iso-date "^3.6.1"
+    graphql-playground-middleware-koa "^1.6.21"
+    graphql-type-json "^0.3.2"
+    graphql-type-long "^0.1.1"
+    graphql-upload "^13.0.0"
+    koa-compose "^4.1.0"
+    lodash "4.17.21"
+    nexus "1.2.0"
+    pluralize "^8.0.0"
+    subscriptions-transport-ws "0.9.19"
+
 "@strapi/plugin-i18n@4.1.2":
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/@strapi/plugin-i18n/-/plugin-i18n-4.1.2.tgz#275b815c6ae167da7553eec16c55471531cb0f36"
@@ -2107,7 +2132,7 @@
     lodash "4.17.21"
     yup "0.32.9"
 
-"@strapi/utils@^4.1.1":
+"@strapi/utils@4.1.3", "@strapi/utils@^4.1.1", "@strapi/utils@^4.1.2":
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.1.3.tgz#87c789568543cd5c257442a0115998f5a6c8c2f1"
   integrity sha512-AAGLx7nO2vFxWj1ibwPDFNVwH2R9aXg6SbtrRLYaohZYOC1ldmn1htbwJiFG29GLlo9lvI4mmBeElzhZUb4Qsw==
@@ -3225,6 +3250,18 @@ backo2@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/backo2/-/backo2-1.0.2.tgz#31ab1ac8b129363463e35b3ebb69f4dfcfba7947"
   integrity sha1-MasayLEpNjRj41s+u2n038+6eUc=
+
+bad-words@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/bad-words/-/bad-words-3.0.4.tgz#044c83935c4c363a905d47b5e0179f7241fecaec"
+  integrity sha512-v/Q9uRPH4+yzDVLL4vR1+S9KoFgOEUl5s4axd6NIAq8SV2mradgi4E8lma/Y0cw1ltVdvyegCQQKffCPRCp8fg==
+  dependencies:
+    badwords-list "^1.0.0"
+
+badwords-list@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/badwords-list/-/badwords-list-1.0.0.tgz#5e9856dbf13482a295c3b0b304afb9d4cfc5c579"
+  integrity sha1-XphW2/E0gqKVw7CzBK+51M/FxXk=
 
 balanced-match@^1.0.0:
   version "1.0.2"
@@ -10383,6 +10420,15 @@ std-env@^2.2.1:
   integrity sha512-eOsoKTWnr6C8aWrqJJ2KAReXoa7Vn5Ywyw6uCXgA/xDhxPoaIsBa5aNJmISY04dLwXPBnDHW4diGM7Sn5K4R/g==
   dependencies:
     ci-info "^3.1.1"
+
+strapi-plugin-comments@^2.0.10:
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-comments/-/strapi-plugin-comments-2.0.10.tgz#5d0b08a3caca0a364d1a508dd793405687b9c32b"
+  integrity sha512-MLowWeYGWBRRrCsGGk2OLFA4UdfF2PpNAJLAbBImX2yv8TYIT/Sj+8zWJkmHrJ/2mePKy2WPVzJgyqnpNjoHGw==
+  dependencies:
+    "@strapi/plugin-graphql" "^4.1.2"
+    "@strapi/utils" "^4.1.2"
+    bad-words "^3.0.4"
 
 strapi-plugin-email-designer@^2.0.9:
   version "2.0.9"

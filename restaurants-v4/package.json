@@ -21,6 +21,7 @@
     "@webbio/strapi-plugin-scheduler": "^0.1.0",
     "pg": "^8.7.3",
     "sqlite3": "5.0.2",
+    "strapi-plugin-comments": "^2.0.10",
     "strapi-plugin-email-designer": "^2.0.9",
     "strapi-plugin-migrations": "^1.0.3",
     "strapi-plugin-transformer": "^1.0.3"
